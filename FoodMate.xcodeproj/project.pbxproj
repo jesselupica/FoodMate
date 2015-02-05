@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABDA1B791A8319D700AB79DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDA1B781A8319D700AB79DC /* AppDelegate.swift */; };
+		ABDA1B7B1A8319D700AB79DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDA1B7A1A8319D700AB79DC /* ViewController.swift */; };
+		ABDA1B7E1A8319D700AB79DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABDA1B7C1A8319D700AB79DC /* Main.storyboard */; };
+		ABDA1B801A8319D700AB79DC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABDA1B7F1A8319D700AB79DC /* Images.xcassets */; };
+		ABDA1B831A8319D700AB79DC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABDA1B811A8319D700AB79DC /* LaunchScreen.xib */; };
+		ABDA1B8F1A8319D800AB79DC /* FoodMateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDA1B8E1A8319D800AB79DC /* FoodMateTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABDA1B891A8319D700AB79DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABDA1B6B1A8319D700AB79DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABDA1B721A8319D700AB79DC;
+			remoteInfo = FoodMate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ABDA1B731A8319D700AB79DC /* FoodMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABDA1B771A8319D700AB79DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABDA1B781A8319D700AB79DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ABDA1B7A1A8319D700AB79DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ABDA1B7D1A8319D700AB79DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABDA1B7F1A8319D700AB79DC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ABDA1B821A8319D700AB79DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		ABDA1B881A8319D700AB79DC /* FoodMateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodMateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABDA1B8D1A8319D700AB79DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABDA1B8E1A8319D800AB79DC /* FoodMateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodMateTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABDA1B701A8319D700AB79DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABDA1B851A8319D700AB79DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABDA1B6A1A8319D700AB79DC = {
+			isa = PBXGroup;
+			children = (
+				ABDA1B751A8319D700AB79DC /* FoodMate */,
+				ABDA1B8B1A8319D700AB79DC /* FoodMateTests */,
+				ABDA1B741A8319D700AB79DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABDA1B741A8319D700AB79DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABDA1B731A8319D700AB79DC /* FoodMate.app */,
+				ABDA1B881A8319D700AB79DC /* FoodMateTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABDA1B751A8319D700AB79DC /* FoodMate */ = {
+			isa = PBXGroup;
+			children = (
+				ABDA1B781A8319D700AB79DC /* AppDelegate.swift */,
+				ABDA1B7A1A8319D700AB79DC /* ViewController.swift */,
+				ABDA1B7C1A8319D700AB79DC /* Main.storyboard */,
+				ABDA1B7F1A8319D700AB79DC /* Images.xcassets */,
+				ABDA1B811A8319D700AB79DC /* LaunchScreen.xib */,
+				ABDA1B761A8319D700AB79DC /* Supporting Files */,
+			);
+			path = FoodMate;
+			sourceTree = "<group>";
+		};
+		ABDA1B761A8319D700AB79DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABDA1B771A8319D700AB79DC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABDA1B8B1A8319D700AB79DC /* FoodMateTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABDA1B8E1A8319D800AB79DC /* FoodMateTests.swift */,
+				ABDA1B8C1A8319D700AB79DC /* Supporting Files */,
+			);
+			path = FoodMateTests;
+			sourceTree = "<group>";
+		};
+		ABDA1B8C1A8319D700AB79DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABDA1B8D1A8319D700AB79DC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABDA1B721A8319D700AB79DC /* FoodMate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABDA1B921A8319D800AB79DC /* Build configuration list for PBXNativeTarget "FoodMate" */;
+			buildPhases = (
+				ABDA1B6F1A8319D700AB79DC /* Sources */,
+				ABDA1B701A8319D700AB79DC /* Frameworks */,
+				ABDA1B711A8319D700AB79DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoodMate;
+			productName = FoodMate;
+			productReference = ABDA1B731A8319D700AB79DC /* FoodMate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABDA1B871A8319D700AB79DC /* FoodMateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABDA1B951A8319D800AB79DC /* Build configuration list for PBXNativeTarget "FoodMateTests" */;
+			buildPhases = (
+				ABDA1B841A8319D700AB79DC /* Sources */,
+				ABDA1B851A8319D700AB79DC /* Frameworks */,
+				ABDA1B861A8319D700AB79DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABDA1B8A1A8319D700AB79DC /* PBXTargetDependency */,
+			);
+			name = FoodMateTests;
+			productName = FoodMateTests;
+			productReference = ABDA1B881A8319D700AB79DC /* FoodMateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABDA1B6B1A8319D700AB79DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Jesse Lupica";
+				TargetAttributes = {
+					ABDA1B721A8319D700AB79DC = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					ABDA1B871A8319D700AB79DC = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = ABDA1B721A8319D700AB79DC;
+					};
+				};
+			};
+			buildConfigurationList = ABDA1B6E1A8319D700AB79DC /* Build configuration list for PBXProject "FoodMate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABDA1B6A1A8319D700AB79DC;
+			productRefGroup = ABDA1B741A8319D700AB79DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABDA1B721A8319D700AB79DC /* FoodMate */,
+				ABDA1B871A8319D700AB79DC /* FoodMateTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABDA1B711A8319D700AB79DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABDA1B7E1A8319D700AB79DC /* Main.storyboard in Resources */,
+				ABDA1B831A8319D700AB79DC /* LaunchScreen.xib in Resources */,
+				ABDA1B801A8319D700AB79DC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABDA1B861A8319D700AB79DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABDA1B6F1A8319D700AB79DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABDA1B7B1A8319D700AB79DC /* ViewController.swift in Sources */,
+				ABDA1B791A8319D700AB79DC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABDA1B841A8319D700AB79DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABDA1B8F1A8319D800AB79DC /* FoodMateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABDA1B8A1A8319D700AB79DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABDA1B721A8319D700AB79DC /* FoodMate */;
+			targetProxy = ABDA1B891A8319D700AB79DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ABDA1B7C1A8319D700AB79DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABDA1B7D1A8319D700AB79DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ABDA1B811A8319D700AB79DC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABDA1B821A8319D700AB79DC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABDA1B901A8319D800AB79DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ABDA1B911A8319D800AB79DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABDA1B931A8319D800AB79DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FoodMate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ABDA1B941A8319D800AB79DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FoodMate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ABDA1B961A8319D800AB79DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FoodMateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodMate.app/FoodMate";
+			};
+			name = Debug;
+		};
+		ABDA1B971A8319D800AB79DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FoodMateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodMate.app/FoodMate";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABDA1B6E1A8319D700AB79DC /* Build configuration list for PBXProject "FoodMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABDA1B901A8319D800AB79DC /* Debug */,
+				ABDA1B911A8319D800AB79DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABDA1B921A8319D800AB79DC /* Build configuration list for PBXNativeTarget "FoodMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABDA1B931A8319D800AB79DC /* Debug */,
+				ABDA1B941A8319D800AB79DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ABDA1B951A8319D800AB79DC /* Build configuration list for PBXNativeTarget "FoodMateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABDA1B961A8319D800AB79DC /* Debug */,
+				ABDA1B971A8319D800AB79DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABDA1B6B1A8319D700AB79DC /* Project object */;
+}
