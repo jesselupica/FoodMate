@@ -7,15 +7,69 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB2903561A96E62900431416 /* RecipeCreationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2903551A96E62900431416 /* RecipeCreationTableViewController.swift */; };
+		AB290A191AB68299007AA685 /* AddToShoppingListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB290A181AB68299007AA685 /* AddToShoppingListViewController.swift */; };
+		AB293BC71AF2D15200BBBD3B /* BrowserRecipePreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB293BC61AF2D15200BBBD3B /* BrowserRecipePreviewViewController.swift */; };
+		AB3AFFA01A85B4F600C77A3E /* RecipeInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3AFF9F1A85B4F600C77A3E /* RecipeInformationViewController.swift */; };
+		AB4173B51A963F3000B2D03A /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4173B41A963F3000B2D03A /* Recipe.swift */; };
+		AB4173B71A966B8C00B2D03A /* RecipeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4173B61A966B8C00B2D03A /* RecipeManager.swift */; };
+		AB5399F71AC10EC200278EAC /* ShoppingListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5399F61AC10EC200278EAC /* ShoppingListViewController.swift */; };
+		AB6ABC5E1AF4100300203AAE /* RecipeImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6ABC5D1AF4100300203AAE /* RecipeImageTableViewCell.swift */; };
+		AB77D3FF1AB378D60031D557 /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB77D3FE1AB378D60031D557 /* MainPageViewController.swift */; };
+		ABA7BB491AB73607007D31BF /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA7BB481AB73607007D31BF /* Ingredient.swift */; };
+		ABB7B9171ADE11E100E0994B /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABB7B9101ADE11A900E0994B /* Alamofire.framework */; };
+		ABB7B9181ADE11E100E0994B /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = ABB7B9101ADE11A900E0994B /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		ABB7B91D1ADE143E00E0994B /* RecipeSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB7B91C1ADE143E00E0994B /* RecipeSearchViewController.swift */; };
+		ABBA630C1B5B33130041BA01 /* CHTCollectionViewWaterfallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBA630A1B5B33130041BA01 /* CHTCollectionViewWaterfallLayout.m */; };
+		ABBA630D1B5B33130041BA01 /* CHTCollectionViewWaterfallLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBA630B1B5B33130041BA01 /* CHTCollectionViewWaterfallLayout.swift */; };
+		ABC726F31ACA29EE00F7ECB8 /* AddIngredientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC726F21ACA29EE00F7ECB8 /* AddIngredientViewController.swift */; };
+		ABCBF70E1AFAADAA00291266 /* CourseSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCBF70D1AFAADAA00291266 /* CourseSelectionViewController.swift */; };
+		ABCD66841AE0B0CC004DF45E /* RecipeStreamCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCD66831AE0B0CC004DF45E /* RecipeStreamCollectionViewCell.swift */; };
+		ABD5FC8E1A8451920076F1CA /* FoodSelectionCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD5FC8D1A8451920076F1CA /* FoodSelectionCollectionViewController.swift */; };
+		ABD5FC901A85397C0076F1CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABD5FC8F1A85397C0076F1CA /* Main.storyboard */; };
 		ABDA1B791A8319D700AB79DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDA1B781A8319D700AB79DC /* AppDelegate.swift */; };
-		ABDA1B7B1A8319D700AB79DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDA1B7A1A8319D700AB79DC /* ViewController.swift */; };
-		ABDA1B7E1A8319D700AB79DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABDA1B7C1A8319D700AB79DC /* Main.storyboard */; };
+		ABDA1B7B1A8319D700AB79DC /* RecipeSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDA1B7A1A8319D700AB79DC /* RecipeSelectionViewController.swift */; };
 		ABDA1B801A8319D700AB79DC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABDA1B7F1A8319D700AB79DC /* Images.xcassets */; };
 		ABDA1B831A8319D700AB79DC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABDA1B811A8319D700AB79DC /* LaunchScreen.xib */; };
 		ABDA1B8F1A8319D800AB79DC /* FoodMateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDA1B8E1A8319D800AB79DC /* FoodMateTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		ABB7B90F1ADE11A900E0994B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABB7B9081ADE11A900E0994B /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+		ABB7B9111ADE11A900E0994B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABB7B9081ADE11A900E0994B /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4DD67C0B1A5C55C900ED2280;
+			remoteInfo = "Alamofire OSX";
+		};
+		ABB7B9131ADE11A900E0994B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABB7B9081ADE11A900E0994B /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS Tests";
+		};
+		ABB7B9151ADE11A900E0994B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABB7B9081ADE11A900E0994B /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F829C6B21A7A94F100A2CD59;
+			remoteInfo = "Alamofire OSX Tests";
+		};
+		ABB7B9191ADE11E100E0994B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABB7B9081ADE11A900E0994B /* Alamofire.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
 		ABDA1B891A8319D700AB79DC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = ABDA1B6B1A8319D700AB79DC /* Project object */;
@@ -25,12 +79,46 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		ABB7B91B1ADE11E200E0994B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				ABB7B9181ADE11E100E0994B /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		AB2903551A96E62900431416 /* RecipeCreationTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeCreationTableViewController.swift; sourceTree = "<group>"; };
+		AB290A181AB68299007AA685 /* AddToShoppingListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddToShoppingListViewController.swift; sourceTree = "<group>"; };
+		AB293BC61AF2D15200BBBD3B /* BrowserRecipePreviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrowserRecipePreviewViewController.swift; sourceTree = "<group>"; };
+		AB3AFF9F1A85B4F600C77A3E /* RecipeInformationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeInformationViewController.swift; sourceTree = "<group>"; };
+		AB4173B41A963F3000B2D03A /* Recipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		AB4173B61A966B8C00B2D03A /* RecipeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeManager.swift; sourceTree = "<group>"; };
+		AB5399F61AC10EC200278EAC /* ShoppingListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingListViewController.swift; sourceTree = "<group>"; };
+		AB6ABC5D1AF4100300203AAE /* RecipeImageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeImageTableViewCell.swift; sourceTree = "<group>"; };
+		AB77D3FE1AB378D60031D557 /* MainPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
+		ABA7BB481AB73607007D31BF /* Ingredient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
+		ABB7B9081ADE11A900E0994B /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = "Alamofire-master/Alamofire.xcodeproj"; sourceTree = "<group>"; };
+		ABB7B91C1ADE143E00E0994B /* RecipeSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeSearchViewController.swift; sourceTree = "<group>"; };
+		ABBA63091B5B33130041BA01 /* CHTCollectionViewWaterfallLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CHTCollectionViewWaterfallLayout.h; path = "CHTCollectionViewWaterfallLayout-develop/CHTCollectionViewWaterfallLayout.h"; sourceTree = SOURCE_ROOT; };
+		ABBA630A1B5B33130041BA01 /* CHTCollectionViewWaterfallLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CHTCollectionViewWaterfallLayout.m; path = "CHTCollectionViewWaterfallLayout-develop/CHTCollectionViewWaterfallLayout.m"; sourceTree = SOURCE_ROOT; };
+		ABBA630B1B5B33130041BA01 /* CHTCollectionViewWaterfallLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CHTCollectionViewWaterfallLayout.swift; path = "CHTCollectionViewWaterfallLayout-develop/CHTCollectionViewWaterfallLayout.swift"; sourceTree = SOURCE_ROOT; };
+		ABC726F21ACA29EE00F7ECB8 /* AddIngredientViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddIngredientViewController.swift; sourceTree = "<group>"; };
+		ABCBF70D1AFAADAA00291266 /* CourseSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseSelectionViewController.swift; sourceTree = "<group>"; };
+		ABCD667B1AE05B6E004DF45E /* FoodMate-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FoodMate-Bridging-Header.h"; sourceTree = "<group>"; };
+		ABCD66831AE0B0CC004DF45E /* RecipeStreamCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeStreamCollectionViewCell.swift; sourceTree = "<group>"; };
+		ABD5FC8D1A8451920076F1CA /* FoodSelectionCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodSelectionCollectionViewController.swift; sourceTree = "<group>"; };
+		ABD5FC8F1A85397C0076F1CA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		ABDA1B731A8319D700AB79DC /* FoodMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABDA1B771A8319D700AB79DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABDA1B781A8319D700AB79DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ABDA1B7A1A8319D700AB79DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		ABDA1B7D1A8319D700AB79DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABDA1B7A1A8319D700AB79DC /* RecipeSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeSelectionViewController.swift; sourceTree = "<group>"; };
 		ABDA1B7F1A8319D700AB79DC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		ABDA1B821A8319D700AB79DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		ABDA1B881A8319D700AB79DC /* FoodMateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodMateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,6 +131,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABB7B9171ADE11E100E0994B /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,9 +145,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ABB7B9091ADE11A900E0994B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABB7B9101ADE11A900E0994B /* Alamofire.framework */,
+				ABB7B9121ADE11A900E0994B /* Alamofire.framework */,
+				ABB7B9141ADE11A900E0994B /* Alamofire iOS Tests.xctest */,
+				ABB7B9161ADE11A900E0994B /* Alamofire OSX Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABCBF7121AFAADF200291266 /* Recipes Tab Bar Item */ = {
+			isa = PBXGroup;
+			children = (
+				ABD5FC8D1A8451920076F1CA /* FoodSelectionCollectionViewController.swift */,
+				AB77D3FE1AB378D60031D557 /* MainPageViewController.swift */,
+				ABDA1B7A1A8319D700AB79DC /* RecipeSelectionViewController.swift */,
+				AB3AFF9F1A85B4F600C77A3E /* RecipeInformationViewController.swift */,
+				AB290A181AB68299007AA685 /* AddToShoppingListViewController.swift */,
+				AB2903551A96E62900431416 /* RecipeCreationTableViewController.swift */,
+			);
+			name = "Recipes Tab Bar Item";
+			sourceTree = "<group>";
+		};
+		ABCBF7131AFAAE1F00291266 /* Shopping List Tab Bar Item */ = {
+			isa = PBXGroup;
+			children = (
+				AB5399F61AC10EC200278EAC /* ShoppingListViewController.swift */,
+				ABC726F21ACA29EE00F7ECB8 /* AddIngredientViewController.swift */,
+			);
+			name = "Shopping List Tab Bar Item";
+			sourceTree = "<group>";
+		};
+		ABCBF7141AFAAE2F00291266 /* Search Tab Bar Item */ = {
+			isa = PBXGroup;
+			children = (
+				ABB7B91C1ADE143E00E0994B /* RecipeSearchViewController.swift */,
+				ABCD66831AE0B0CC004DF45E /* RecipeStreamCollectionViewCell.swift */,
+				AB293BC61AF2D15200BBBD3B /* BrowserRecipePreviewViewController.swift */,
+				AB6ABC5D1AF4100300203AAE /* RecipeImageTableViewCell.swift */,
+				ABCBF70D1AFAADAA00291266 /* CourseSelectionViewController.swift */,
+			);
+			name = "Search Tab Bar Item";
+			sourceTree = "<group>";
+		};
+		ABCBF7151AFAAE4000291266 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AB4173B41A963F3000B2D03A /* Recipe.swift */,
+				ABA7BB481AB73607007D31BF /* Ingredient.swift */,
+				AB4173B61A966B8C00B2D03A /* RecipeManager.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		ABDA1B6A1A8319D700AB79DC = {
 			isa = PBXGroup;
 			children = (
+				ABB7B9081ADE11A900E0994B /* Alamofire.xcodeproj */,
 				ABDA1B751A8319D700AB79DC /* FoodMate */,
 				ABDA1B8B1A8319D700AB79DC /* FoodMateTests */,
 				ABDA1B741A8319D700AB79DC /* Products */,
@@ -77,12 +222,19 @@
 		ABDA1B751A8319D700AB79DC /* FoodMate */ = {
 			isa = PBXGroup;
 			children = (
+				ABBA63091B5B33130041BA01 /* CHTCollectionViewWaterfallLayout.h */,
+				ABBA630A1B5B33130041BA01 /* CHTCollectionViewWaterfallLayout.m */,
+				ABBA630B1B5B33130041BA01 /* CHTCollectionViewWaterfallLayout.swift */,
 				ABDA1B781A8319D700AB79DC /* AppDelegate.swift */,
-				ABDA1B7A1A8319D700AB79DC /* ViewController.swift */,
-				ABDA1B7C1A8319D700AB79DC /* Main.storyboard */,
+				ABCBF7121AFAADF200291266 /* Recipes Tab Bar Item */,
+				ABCBF7131AFAAE1F00291266 /* Shopping List Tab Bar Item */,
+				ABCBF7141AFAAE2F00291266 /* Search Tab Bar Item */,
+				ABCBF7151AFAAE4000291266 /* Model */,
+				ABD5FC8F1A85397C0076F1CA /* Main.storyboard */,
 				ABDA1B7F1A8319D700AB79DC /* Images.xcassets */,
 				ABDA1B811A8319D700AB79DC /* LaunchScreen.xib */,
 				ABDA1B761A8319D700AB79DC /* Supporting Files */,
+				ABCD667B1AE05B6E004DF45E /* FoodMate-Bridging-Header.h */,
 			);
 			path = FoodMate;
 			sourceTree = "<group>";
@@ -122,10 +274,12 @@
 				ABDA1B6F1A8319D700AB79DC /* Sources */,
 				ABDA1B701A8319D700AB79DC /* Frameworks */,
 				ABDA1B711A8319D700AB79DC /* Resources */,
+				ABB7B91B1ADE11E200E0994B /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				ABB7B91A1ADE11E100E0994B /* PBXTargetDependency */,
 			);
 			name = FoodMate;
 			productName = FoodMate;
@@ -179,6 +333,12 @@
 			mainGroup = ABDA1B6A1A8319D700AB79DC;
 			productRefGroup = ABDA1B741A8319D700AB79DC /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = ABB7B9091ADE11A900E0994B /* Products */;
+					ProjectRef = ABB7B9081ADE11A900E0994B /* Alamofire.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				ABDA1B721A8319D700AB79DC /* FoodMate */,
@@ -187,12 +347,43 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		ABB7B9101ADE11A900E0994B /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = ABB7B90F1ADE11A900E0994B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		ABB7B9121ADE11A900E0994B /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = ABB7B9111ADE11A900E0994B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		ABB7B9141ADE11A900E0994B /* Alamofire iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire iOS Tests.xctest";
+			remoteRef = ABB7B9131ADE11A900E0994B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		ABB7B9161ADE11A900E0994B /* Alamofire OSX Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire OSX Tests.xctest";
+			remoteRef = ABB7B9151ADE11A900E0994B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		ABDA1B711A8319D700AB79DC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABDA1B7E1A8319D700AB79DC /* Main.storyboard in Resources */,
+				ABD5FC901A85397C0076F1CA /* Main.storyboard in Resources */,
 				ABDA1B831A8319D700AB79DC /* LaunchScreen.xib in Resources */,
 				ABDA1B801A8319D700AB79DC /* Images.xcassets in Resources */,
 			);
@@ -212,8 +403,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABDA1B7B1A8319D700AB79DC /* ViewController.swift in Sources */,
+				AB5399F71AC10EC200278EAC /* ShoppingListViewController.swift in Sources */,
+				ABBA630C1B5B33130041BA01 /* CHTCollectionViewWaterfallLayout.m in Sources */,
+				AB77D3FF1AB378D60031D557 /* MainPageViewController.swift in Sources */,
+				ABDA1B7B1A8319D700AB79DC /* RecipeSelectionViewController.swift in Sources */,
+				ABB7B91D1ADE143E00E0994B /* RecipeSearchViewController.swift in Sources */,
+				ABA7BB491AB73607007D31BF /* Ingredient.swift in Sources */,
 				ABDA1B791A8319D700AB79DC /* AppDelegate.swift in Sources */,
+				ABCD66841AE0B0CC004DF45E /* RecipeStreamCollectionViewCell.swift in Sources */,
+				ABCBF70E1AFAADAA00291266 /* CourseSelectionViewController.swift in Sources */,
+				AB293BC71AF2D15200BBBD3B /* BrowserRecipePreviewViewController.swift in Sources */,
+				AB3AFFA01A85B4F600C77A3E /* RecipeInformationViewController.swift in Sources */,
+				AB4173B71A966B8C00B2D03A /* RecipeManager.swift in Sources */,
+				AB6ABC5E1AF4100300203AAE /* RecipeImageTableViewCell.swift in Sources */,
+				ABC726F31ACA29EE00F7ECB8 /* AddIngredientViewController.swift in Sources */,
+				ABD5FC8E1A8451920076F1CA /* FoodSelectionCollectionViewController.swift in Sources */,
+				AB4173B51A963F3000B2D03A /* Recipe.swift in Sources */,
+				AB2903561A96E62900431416 /* RecipeCreationTableViewController.swift in Sources */,
+				AB290A191AB68299007AA685 /* AddToShoppingListViewController.swift in Sources */,
+				ABBA630D1B5B33130041BA01 /* CHTCollectionViewWaterfallLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,6 +436,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		ABB7B91A1ADE11E100E0994B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Alamofire iOS";
+			targetProxy = ABB7B9191ADE11E100E0994B /* PBXContainerItemProxy */;
+		};
 		ABDA1B8A1A8319D700AB79DC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = ABDA1B721A8319D700AB79DC /* FoodMate */;
@@ -236,14 +449,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		ABDA1B7C1A8319D700AB79DC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ABDA1B7D1A8319D700AB79DC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		ABDA1B811A8319D700AB79DC /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -336,9 +541,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = FoodMate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FoodMate/FoodMate-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -346,9 +554,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = FoodMate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FoodMate/FoodMate-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -405,6 +615,7 @@
 				ABDA1B941A8319D800AB79DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ABDA1B951A8319D800AB79DC /* Build configuration list for PBXNativeTarget "FoodMateTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +624,7 @@
 				ABDA1B971A8319D800AB79DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
